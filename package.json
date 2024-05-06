@@ -1,0 +1,20 @@
+{
+  "name": "social_media_express_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "node app.js",
+    "start": "node app.js",
+    "poststart": "node app.js"
+  },
+  "author": "Roland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
